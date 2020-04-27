@@ -93,6 +93,8 @@ nav {
 .cover img {
     justify-self: flex-end;
     filter: drop-shadow(3px 8px 3px rgba(0, 0, 0, 0.514));
+    animation: drop 1.5s ease;
+    width: 70%;
 }
 
 .cover {
@@ -171,4 +173,25 @@ nav {
     text-align: center;
     background-color: rgb(36, 36, 36);
     line-height: 40px;
+}
+
+@keyframes drop {
+    0% {
+        opacity: 0;
+        transform: translateY(-80px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@media screen and (max-width: 968px) {
+    .presentation {
+        flex-direction: column;
+    }
+    .introduction {
+        margin-top: 5vh;;
+    }
+
 }
