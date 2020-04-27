@@ -173,9 +173,16 @@ nav {
     font-size: 26px;
 }
 
-.one {
+.oneb1 {
     position: absolute;
     left: 38.2%;
     top: 47%;
+    font-size: 22px;
+}
+
+.twob1 {
+    position: absolute;
+    left: 35%;
+    top: 52%;
     font-size: 22px;
 }
