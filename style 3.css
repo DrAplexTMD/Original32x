@@ -202,3 +202,8 @@ nav {
 .A4 {
     width: 80%;
 }
+
+.linkWeb {
+    text-decoration: none;
+    color: rgb(0, 89, 255);
+}
