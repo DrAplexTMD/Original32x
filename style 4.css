@@ -183,6 +183,20 @@ nav {
 .twob1 {
     position: absolute;
     left: 35%;
-    top: 52%;
+    top: 54%;
     font-size: 22px;
+}
+
+.three1 {
+    position: absolute;
+    left: 21%;
+    top: 61%;
+    width: 50%;
+    text-align: center;
+    font-size: 22px;
+}
+
+.here {
+    text-decoration: none;
+    color : rgb(0, 89, 255)
 }

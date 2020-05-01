@@ -163,10 +163,27 @@ nav {
     height: 1%;
 }
 
+.insp {
+    position: absolute;
+    top: 90%;
+}
+
+.inspired-txt {
+    text-decoration: none;
+    color: rgb(0, 81, 173);
+    font-size: 18px;
+}
+
+.from {
+    text-decoration: none;
+    color: rgb(0, 81, 173);
+    font-size: 18px;
+}
+
 .Copyr {
     position: absolute;
     left: 0%;
-    bottom: 0%;
+    bottom: -4%;
     width: 100%;
     height: 6%;
     color: whitesmoke;
@@ -174,6 +191,7 @@ nav {
     background-color: rgb(36, 36, 36);
     line-height: 40px;
 }
+
 
 @keyframes drop {
     0% {
@@ -218,6 +236,7 @@ nav {
         top: 70%;
         left: 18%;
     }
+    
     .nav-links {
         flex-direction: column;
         padding: 5px 0px 0px 0px;
