@@ -149,7 +149,7 @@ nav {
     top: 39%;
 }
 
-.nav-link1:hover, .nav-link3:hover, .nav-link4:hover {
+.nav-link1:hover, .nav-link3:hover, .nav-link4:hover, .nav-link5:hover {
     background-color: rgb(29, 127, 255);
     color: whitesmoke;
     border: none;

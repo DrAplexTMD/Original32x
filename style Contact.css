@@ -88,15 +88,16 @@ nav {
 .btn {
     border: 2px solid #000000;
     background: transparent;
-    width: 150px;
+    width: 340px;
     height: 50px;
     font-size: 22px;
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
     color: rgb(0, 0, 0);
     position: absolute;
-    left: 44%;
-    top: 35%;
+    left: 33%;
+    top: 50%;
+    transition: 0.5s;
 }
 
 .cover img {
@@ -134,24 +135,31 @@ nav {
     opacity: 0.3;
 }
 
-.nav-link4 {
-    background-color: rgb(0, 110, 255);
-    color: white;
-    border: 2px solid rgb(0, 26, 255);
-}
-
-.nav-link1:hover, .nav-link2:hover, .nav-link3:hover, .nav-link5:hover {
+.nav-link1:hover, .nav-link2:hover, .nav-link3:hover, .nav-link4:hover {
     background-color: rgb(50, 139, 255);
     color: whitesmoke;
     border: none;
 }
 
-.Changelogs {
+.Versionb1_0 {
     position: absolute;
     top: 31%;
-    left: 40%;
+    left: 32.8%;
     font-size: 25px;
 }
+
+.btn:hover {
+    background-color: rgb(0, 110, 255);
+    color: white;
+    border: 2px solid rgb(0, 26, 255);
+}
+
+.nav-link5 {
+    background-color: rgb(0, 110, 255);
+    color: white;
+    border: 2px solid rgb(0, 26, 255);
+}
+
 
 .Copyr {
     position: absolute;
@@ -165,38 +173,43 @@ nav {
     line-height: 40px;
 }
 
-
-.Verb1 {
-    position: absolute;
-    left: 38%;
-    top: 38%;
-    font-size: 26px;
+form {
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+    align-items: center;
 }
 
-.oneb1 {
-    position: absolute;
-    left: 38.2%;
-    top: 47%;
-    font-size: 22px;
+.form-control {
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+    color: black;
+    align-content: center;
+    padding: 0px 100px 0px 0px;
 }
 
-.twob1 {
-    position: absolute;
-    left: 35%;
-    top: 54%;
-    font-size: 22px;
+.input {
+    height: 45px;
 }
 
-.three1 {
-    position: absolute;
-    left: 21%;
-    top: 61%;
-    width: 50%;
+form .submit {
+    background: #ff5722;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
     text-align: center;
-    font-size: 22px;
 }
 
-.here {
-    text-decoration: none;
-    color : rgb(0, 89, 255)
+form .submit:hover {
+    background-color: #f44336;
+    cursor: pointer;
 }
