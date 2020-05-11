@@ -160,11 +160,11 @@ nav {
     border: 2px solid rgb(0, 26, 255);
 }
 
-
+/* Copyright */
 .Copyr {
     position: absolute;
     left: 0%;
-    bottom: 0%;
+    bottom: -20%;
     width: 100%;
     height: 6%;
     color: whitesmoke;
@@ -173,43 +173,38 @@ nav {
     line-height: 40px;
 }
 
-form {
-    margin-top: 50px;
-    transition: all 4s ease-in-out;
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], [type=mail], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical;
+    justify-content: center;
     align-items: center;
-}
-
-.form-control {
-    width: 600px;
-    background: transparent;
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
     border: none;
-    outline: none;
-    border-bottom: 1px solid gray;
-    color: #fff;
-    font-size: 18px;
-    margin-bottom: 16px;
-    color: black;
-    align-content: center;
-    padding: 0px 100px 0px 0px;
-}
-
-.input {
-    height: 45px;
-}
-
-form .submit {
-    background: #ff5722;
-    border-color: transparent;
-    color: #fff;
-    font-size: 20px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    height: 50px;
-    margin-top: 20px;
-    text-align: center;
-}
-
-form .submit:hover {
-    background-color: #f44336;
+    border-radius: 20px;
     cursor: pointer;
-}
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .contact-form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
