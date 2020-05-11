@@ -3,8 +3,8 @@
    <head>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style 4.css">
-        <title>Original 32x - Changelogs</title>
+        <link rel="stylesheet" href="style Contact.css">
+        <title>Original 32x - Contact</title>
         <link rel="shortcut icon" type="image/png" href="img/favicon.png">
    </head>
    <body>
@@ -19,24 +19,32 @@
                    <li><a class="nav-link2" href="Download.html">Download</a></li>
                    <li><a class="nav-link3" href="FAQ.html">FAQ</a></li>
                    <li><a class="nav-link4" href="Changelogs.html">Changelogs</a></li>
-                   <li><a class="nav-link5" href="Contact.php">Contact Us</a></li>
+                   <li><a class="nav-link5" href="Contact.html">Contact Us</a></li>
                </ul>
            </nav>
        </header>
 
        <main>
            <section class="presentation">
-               <div class="introduction">
-                   <div class="intro-text">
-                       <h1>Original 32x</h1>
-                       <p>Minecrafts Pixels Has Just Been Doubled Up!</p>
-                   </div>
-                   <h3 class="Changelogs">Changelogs</h3>
-                   <h3 class="Verb1">Version beta 1.0</h3>
-                   <h4 class="oneb1">1. The First Release!</h4>
-                   <h4 class="twob1">2. Not all items are 32x32 :(</h4>
-                   <h4 class="three1">3. Look from all of the versions what things are added in the whole resorcepack by clicking <a href="Choose.html" class="here">here</a></h4>.
-               </div>
+            <div class="contact-form">
+                <form action="contact-form.php">
+              
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" placeholder="Your Name..">
+
+                  <label for="name">Email</label>
+                  <input type="mail" id="mail" name="mail" placeholder="Your Email..">
+
+                  <label for="name">Subject</label>
+                  <input type="text" id="Subject" name="subject" placeholder="Subject">
+              
+                  <label for="Message">Message</label>
+                  <textarea id="Message" name="Message" placeholder="Write something.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+              </div>
                <div class="Copyright">
                 <h3 class="Copyr">Copyright © 2020-2020 DrAplexTMD All Rights Reserved.</h3>
             </div>
